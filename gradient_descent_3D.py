@@ -101,7 +101,7 @@ def calculate_gradient(x, y):
     return (2 * x, 2 * y)  # Gradient of the quadratic function
 
 # Instantiate the optimizer
-optimizer = GradientDescentOptimizer(z_function, calculate_gradient, learning_rate=0.1, max_iterations=100)
+optimizer = GradientDescentOptimizer(z_function, calculate_gradient, learning_rate=0.09, max_iterations=100)
 optimizer.set_initial_position(1.5, 1.5)
 
 # Perform optimization and visualize the results
