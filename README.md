@@ -29,4 +29,4 @@ Stay tuned for updates as I refine and deepen my understanding of these techniqu
 
 For any questions or suggestions, feel free to reach out:  
 **YAbraham Owodunni**  
-**GitHub:** [yourusername](https://github.com/abrahamowodunni)
+**GitHub:** [abrahamowodunni](https://github.com/abrahamowodunni)
