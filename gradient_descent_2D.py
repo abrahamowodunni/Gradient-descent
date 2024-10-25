@@ -65,16 +65,18 @@ class GradientDescentVisualizer:
         plt.ioff()
         plt.show()
 
-def y_function(x):
-    return x**2
 
-def y_derivative(x):
-    return 2 * x
+def quadratic_function(x):
+    return x**2 + 3*x + 5
+
+def quadratic_derivative(x):
+    return 2*x + 3
+
 
 # Instantiate and run the visualizer
 visualizer = GradientDescentVisualizer(
-    function=y_function,
-    derivative=y_derivative,
+    function=quadratic_function,
+    derivative=quadratic_derivative,
     learning_rate=0.01,
     steps=10000,
     epsilon=1e-5
